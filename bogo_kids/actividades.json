@@ -1,0 +1,1122 @@
+[
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Pintura con esponjas",
+      "categoria": "Arte y Manualidades",
+      "edad": "3-6",
+      "ubicacion": "Parque de los Niños",
+      "costo": "Gratis",
+      "horario": "Sábados 10:00",
+      "descripcion": "Actividad de arte libre con esponjas y pintura lavable para los más pequeños.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de reciclaje creativo",
+      "categoria": "Arte y Manualidades",
+      "edad": "6-12",
+      "ubicacion": "Centro Cultural Local",
+      "costo": "8.000 COP",
+      "horario": "Domingos 11:00",
+      "descripcion": "Crear juguetes y manualidades a partir de materiales reciclados.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Pintura por números",
+      "categoria": "Arte y Manualidades",
+      "edad": "5-10",
+      "ubicacion": "Biblioteca Local",
+      "costo": "Gratis",
+      "horario": "Sábados 14:00",
+      "descripcion": "Actividad guiada de pintura por números para introducir técnicas básicas.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Escultura con plastilina",
+      "categoria": "Arte y Manualidades",
+      "edad": "4-9",
+      "ubicacion": "Museo Infantil",
+      "costo": "5.000 COP",
+      "horario": "Miércoles 15:00",
+      "descripcion": "Modelado sensorial con plastilina ecológica para crear figuras y animales.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Mini fútbol divertido",
+      "categoria": "Deporte",
+      "edad": "5-10",
+      "ubicacion": "Cancha Parque Central",
+      "costo": "10.000 COP",
+      "horario": "Domingos 9:00",
+      "descripcion": "Partidos cortos y orientados a la diversión y trabajo en equipo.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Yoga en familia",
+      "categoria": "Deporte",
+      "edad": "3+",
+      "ubicacion": "Parque El Virrey",
+      "costo": "Gratis",
+      "horario": "Domingos 8:00",
+      "descripcion": "Sesión de yoga para niños y padres, estiramiento y respiración.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Mini patinaje urbano",
+      "categoria": "Deporte",
+      "edad": "4-7",
+      "ubicacion": "Ciclovía",
+      "costo": "6.000 COP",
+      "horario": "Domingos 10:00",
+      "descripcion": "Clase lúdica para aprender equilibrio y coordinación con patines.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Carrera de obstáculos infantil",
+      "categoria": "Deporte",
+      "edad": "6-12",
+      "ubicacion": "Parque Deportivo",
+      "costo": "12.000 COP",
+      "horario": "Sábados 9:00",
+      "descripcion": "Circuito con pruebas y obstáculos inflables para niños.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Cocina creativa para niños",
+      "categoria": "Restaurantes y Cocina",
+      "edad": "7-12",
+      "ubicacion": "Taller Gastronómico",
+      "costo": "25.000 COP",
+      "horario": "Sábados 11:00",
+      "descripcion": "Preparación de snacks saludables en un entorno seguro.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Mini chefs en acción",
+      "categoria": "Restaurantes y Cocina",
+      "edad": "6-10",
+      "ubicacion": "Escuela Gastronómica",
+      "costo": "20.000 COP",
+      "horario": "Viernes 16:00",
+      "descripcion": "Taller práctico para preparar recetas sencillas y divertidas.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Picnic saludable colectivo",
+      "categoria": "Restaurantes y Cocina",
+      "edad": "4-9",
+      "ubicacion": "Parque de la 93",
+      "costo": "Gratis",
+      "horario": "Domingos 11:00",
+      "descripcion": "Taller y picnic para aprender snacks saludables y jugar al aire libre.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Cuentacuentos en la Biblioteca",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "4-8",
+      "ubicacion": "Biblioteca Pública",
+      "costo": "Gratis",
+      "horario": "Sábados 15:00",
+      "descripcion": "Historias narradas de forma participativa para fomentar la lectura.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Exploradores del Museo",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "7-12",
+      "ubicacion": "Museo de Historia",
+      "costo": "10.000 COP",
+      "horario": "Sábados 14:00",
+      "descripcion": "Recorrido guiado con actividades interactivas para niños.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Pequeños inventores",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "6-12",
+      "ubicacion": "Centro de Ciencias",
+      "costo": "18.000 COP",
+      "horario": "Domingos 13:00",
+      "descripcion": "Experimentos sencillos de física y química pensados para niños.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Títeres en el parque",
+      "categoria": "Eventos",
+      "edad": "3-9",
+      "ubicacion": "Plaza Central",
+      "costo": "Gratis",
+      "horario": "Domingos 12:00",
+      "descripcion": "Funciones de títeres con historias sobre la naturaleza y la amistad.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Festival de cometas",
+      "categoria": "Eventos",
+      "edad": "todas",
+      "ubicacion": "Parque Simón Bolívar",
+      "costo": "Gratis",
+      "horario": "Agosto - Fines de semana",
+      "descripcion": "Evento familiar para volar cometas y compartir en comunidad.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Cine infantil al aire libre",
+      "categoria": "Eventos",
+      "edad": "5+",
+      "ubicacion": "Parque de Usaquén",
+      "costo": "Gratis",
+      "horario": "Viernes 19:00",
+      "descripcion": "Proyección de películas familiares bajo las estrellas.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Show de magia infantil",
+      "categoria": "Eventos",
+      "edad": "4-10",
+      "ubicacion": "Teatro La Castellana",
+      "costo": "15.000 COP",
+      "horario": "Sábados 16:00",
+      "descripcion": "Presentación mágica interactiva con participación del público.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Feria de los sentidos",
+      "categoria": "Eventos",
+      "edad": "3-10",
+      "ubicacion": "Jardín Botánico",
+      "costo": "5.000 COP",
+      "horario": "Domingos 10:00",
+      "descripcion": "Actividades sensoriales, música y exploración en la naturaleza.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Pequeños músicos",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "6-12",
+      "ubicacion": "Auditorio Local",
+      "costo": "10.000 COP",
+      "horario": "Sábados 17:00",
+      "descripcion": "Concierto y taller de introducción a instrumentos para niños.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de danza creativa",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "4-9",
+      "ubicacion": "Casa Cultural",
+      "costo": "8.000 COP",
+      "horario": "Sábados 10:30",
+      "descripcion": "Clases de movimiento y expresión con música infantil.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Explora el huerto",
+      "categoria": "Eventos",
+      "edad": "5-11",
+      "ubicacion": "Huerto Urbano",
+      "costo": "3.000 COP",
+      "horario": "Domingos 9:30",
+      "descripcion": "Taller práctico sobre plantas y alimentación saludable.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Laboratorio de burbujas",
+      "categoria": "Eventos",
+      "edad": "3-8",
+      "ubicacion": "Parque Temático",
+      "costo": "6.000 COP",
+      "horario": "Sábados 11:00",
+      "descripcion": "Experimentos con burbujas gigantes y juegos de aire.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Caza de insectos educativa",
+      "categoria": "Eventos",
+      "edad": "7-12",
+      "ubicacion": "Parque Natural",
+      "costo": "8.000 COP",
+      "horario": "Sábados 8:30",
+      "descripcion": "Observación guiada de insectos y su ecosistema.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de teatro infantil",
+      "categoria": "Arte y Manualidades",
+      "edad": "6-12",
+      "ubicacion": "Centro Cultural",
+      "costo": "12.000 COP",
+      "horario": "Domingos 16:00",
+      "descripcion": "Juego dramático y creación de pequeñas obras teatrales.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Ruta ciclista familiar",
+      "categoria": "Deporte",
+      "edad": "todas",
+      "ubicacion": "Ciclovía Principal",
+      "costo": "Gratis",
+      "horario": "Domingos 8:00",
+      "descripcion": "Recorrido seguro en bici para familias con niños.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de fotografía junior",
+      "categoria": "Arte y Manualidades",
+      "edad": "9-14",
+      "ubicacion": "Casa de la Juventud",
+      "costo": "15.000 COP",
+      "horario": "Sábados 14:00",
+      "descripcion": "Aprender a usar la cámara y componer imágenes divertidas.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Clases de guitarra para niños",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "7-12",
+      "ubicacion": "Escuela de Música",
+      "costo": "20.000 COP",
+      "horario": "Viernes 17:00",
+      "descripcion": "Introducción a acordes y canciones sencillas.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de ciencia con imanes",
+      "categoria": "Eventos",
+      "edad": "5-9",
+      "ubicacion": "Museo Interactivo",
+      "costo": "10.000 COP",
+      "horario": "Sábados 10:00",
+      "descripcion": "Juegos y experimentos para entender magnetismo.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Rincón de lectura y dibujo",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "4-8",
+      "ubicacion": "Sala Infantil",
+      "costo": "Gratis",
+      "horario": "Miércoles 16:00",
+      "descripcion": "Tiempo de lectura guiada y dibujo libre para niños.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Títeres en la plaza",
+      "categoria": "Eventos",
+      "edad": "3-9",
+      "ubicacion": "Plaza Pública",
+      "costo": "Gratis",
+      "horario": "Domingos 11:00",
+      "descripcion": "Obras de títeres al aire libre para familias.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de stop motion",
+      "categoria": "Arte y Manualidades",
+      "edad": "9-13",
+      "ubicacion": "Taller Multimedia",
+      "costo": "20.000 COP",
+      "horario": "Sábados 14:00",
+      "descripcion": "Crear pequeñas animaciones usando figuras y fotografía cuadro a cuadro.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Festival de juegos de mesa",
+      "categoria": "Eventos",
+      "edad": "6-14",
+      "ubicacion": "Centro Cultural",
+      "costo": "Gratis",
+      "horario": "Domingo 11:00",
+      "descripcion": "Espacio para jugar y aprender con juegos de mesa apropiados para niños.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de marionetas caseras",
+      "categoria": "Arte y Manualidades",
+      "edad": "6-10",
+      "ubicacion": "Biblioteca Comunitaria",
+      "costo": "7.000 COP",
+      "horario": "Miércoles 16:00",
+      "descripcion": "Construcción y presentación de marionetas con materiales reciclados.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Jornada de observación astronómica",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "10+",
+      "ubicacion": "Planetario",
+      "costo": "12.000 COP",
+      "horario": "Viernes 19:30",
+      "descripcion": "Noche de observación con telescopios y explicación de constelaciones.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de cerámica junior",
+      "categoria": "Arte y Manualidades",
+      "edad": "9-14",
+      "ubicacion": "Taller de Cerámica",
+      "costo": "20.000 COP",
+      "horario": "Viernes 15:00",
+      "descripcion": "Modelado y esmaltado de piezas sencillas en arcilla.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Mini baloncesto",
+      "categoria": "Deporte",
+      "edad": "6-9",
+      "ubicacion": "Gimnasio Local",
+      "costo": "12.000 COP",
+      "horario": "Domingos 9:00",
+      "descripcion": "Iniciación al baloncesto con juegos y puntería.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de smoothies saludables",
+      "categoria": "Restaurantes y Cocina",
+      "edad": "6-11",
+      "ubicacion": "Mercado Local",
+      "costo": "15.000 COP",
+      "horario": "Viernes 10:00",
+      "descripcion": "Preparación de batidos nutritivos y degustación.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de electrónica simple",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "11-15",
+      "ubicacion": "Laboratorio Junior",
+      "costo": "40.000 COP",
+      "horario": "Sábados 14:00",
+      "descripcion": "Circuitos básicos con LED y componentes seguros para aprender electrónica.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Fiesta de disfraces ecológicos",
+      "categoria": "Eventos",
+      "edad": "5-12",
+      "ubicacion": "Jardín Botánico",
+      "costo": "10.000 COP",
+      "horario": "Octubre - Sábado 10:00",
+      "descripcion": "Desfile de disfraces hechos con materiales reciclados.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de magia para peques",
+      "categoria": "Eventos",
+      "edad": "6-10",
+      "ubicacion": "Teatro Local",
+      "costo": "18.000 COP",
+      "horario": "Sábados 16:00",
+      "descripcion": "Trucos sencillos y presentación final para familiares.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Ruta de arte mural",
+      "categoria": "Arte y Manualidades",
+      "edad": "10-15",
+      "ubicacion": "Barrio Cultural",
+      "costo": "Gratis",
+      "horario": "Sábados 10:00",
+      "descripcion": "Recorrido y taller para entender y crear murales urbanos.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de skate para principiantes",
+      "categoria": "Deporte",
+      "edad": "9-14",
+      "ubicacion": "Skatepark Local",
+      "costo": "20.000 COP",
+      "horario": "Sábados 15:00",
+      "descripcion": "Clases básicas de skate en un espacio seguro con instructores.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Cena sensorial para niños",
+      "categoria": "Restaurantes y Cocina",
+      "edad": "7-12",
+      "ubicacion": "Espacio Gastronómico",
+      "costo": "35.000 COP",
+      "horario": "Viernes 18:00",
+      "descripcion": "Actividad sensorial con alimentos para experimentar sabores y texturas.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de fotografía naturalista",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "10-15",
+      "ubicacion": "Reserva Natural",
+      "costo": "25.000 COP",
+      "horario": "Domingos 7:30",
+      "descripcion": "Fotografía de flora y fauna enfocada en la observación responsable.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Pequeños científicos: agua",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "5-9",
+      "ubicacion": "Centro Educativo",
+      "costo": "12.000 COP",
+      "horario": "Sábados 11:00",
+      "descripcion": "Experimentos para entender el comportamiento del agua.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Escalada urbana segura",
+      "categoria": "Deporte",
+      "edad": "14-17",
+      "ubicacion": "Parque Simón Bolívar",
+      "costo": "Gratis",
+      "horario": "Sábados 10:00 - 12:00",
+      "descripcion": "Aprende técnicas de escalada en muro artificial con monitores certificados.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de fotografía digital",
+      "categoria": "Arte y Manualidades",
+      "edad": "14-17",
+      "ubicacion": "Biblioteca Virgilio Barco",
+      "costo": "20.000 COP",
+      "horario": "Domingos 14:00 - 17:00",
+      "descripcion": "Curso práctico para jóvenes interesados en fotografía con cámara o celular.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Cine foro juvenil",
+      "categoria": "Eventos",
+      "edad": "14-17",
+      "ubicacion": "Cinemateca Distrital",
+      "costo": "Gratis",
+      "horario": "Viernes 16:00 - 19:00",
+      "descripcion": "Espacio para ver y debatir películas con temáticas juveniles y culturales.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Diseño de videojuegos básicos",
+      "categoria": "Arte y Manualidades",
+      "edad": "14-17",
+      "ubicacion": "Maloka Bogotá",
+      "costo": "35.000 COP",
+      "horario": "Sábados 9:00 - 12:00",
+      "descripcion": "Aprende a crear tus primeros videojuegos con Scratch y Unity junior.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Campamento ecológico urbano",
+      "categoria": "Eventos",
+      "edad": "14-17",
+      "ubicacion": "Parque Entrenubes",
+      "costo": "50.000 COP",
+      "horario": "Fin de semana completo",
+      "descripcion": "Experiencia al aire libre con talleres ambientales y actividades de liderazgo.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Clase de skate y equilibrio",
+      "categoria": "Deporte",
+      "edad": "14-17",
+      "ubicacion": "Skatepark San Cristóbal",
+      "costo": "10.000 COP",
+      "horario": "Miércoles y viernes 15:00 - 17:00",
+      "descripcion": "Aprende trucos de skate en un entorno seguro con equipo de protección incluido.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Lectura al aire libre",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "6-9",
+      "ubicacion": "Parque Nacional",
+      "costo": "Gratis",
+      "horario": "Domingos 10:00 - 12:00",
+      "descripcion": "Tardes de lectura y cuentacuentos en el parque con libros ilustrados para niños.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Pequeños científicos",
+      "categoria": "Eventos",
+      "edad": "5-8",
+      "ubicacion": "Maloka Bogotá",
+      "costo": "25.000 COP",
+      "horario": "Sábados 11:00 - 13:00",
+      "descripcion": "Experimentos divertidos para despertar la curiosidad científica en los niños.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de cerámica infantil",
+      "categoria": "Arte y Manualidades",
+      "edad": "6-10",
+      "ubicacion": "Centro Cultural Gabriel García Márquez",
+      "costo": "30.000 COP",
+      "horario": "Sábados 10:00 - 12:00",
+      "descripcion": "Los niños aprenderán a moldear figuras de barro y pintura artística.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Mini chefs en acción",
+      "categoria": "Restaurantes y Cocina",
+      "edad": "8-12",
+      "ubicacion": "Escuela de cocina Sabores",
+      "costo": "40.000 COP",
+      "horario": "Domingos 10:00 - 12:00",
+      "descripcion": "Taller de cocina saludable donde los niños preparan sus propias recetas.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Bicicletada familiar",
+      "categoria": "Deporte",
+      "edad": "todas",
+      "ubicacion": "Ciclovía Bogotá",
+      "costo": "Gratis",
+      "horario": "Domingos 7:00 - 11:00",
+      "descripcion": "Paseo familiar en bicicleta por la ciclovía con acompañamiento recreativo.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Exploradores del arte",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "6-12",
+      "ubicacion": "Museo Nacional de Colombia",
+      "costo": "Gratis",
+      "horario": "Sábados 14:00 - 16:00",
+      "descripcion": "Visitas guiadas interactivas para descubrir el arte colombiano a través del juego.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Danza folclórica para niños",
+      "categoria": "Deporte",
+      "edad": "9-13",
+      "ubicacion": "Teatro Colsubsidio",
+      "costo": "30.000 COP",
+      "horario": "Sábados 10:00 - 12:00",
+      "descripcion": "Aprende bailes tradicionales colombianos con coreografías sencillas y coloridas.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Tarde de juegos sensoriales",
+      "categoria": "Eventos",
+      "edad": "0-2",
+      "ubicacion": "Ludoteca Chapinero",
+      "costo": "15.000 COP",
+      "horario": "Martes y jueves 10:00 - 11:30",
+      "descripcion": "Estimulación temprana con música, texturas y burbujas para bebés.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Mini yoguis",
+      "categoria": "Deporte",
+      "edad": "0-2",
+      "ubicacion": "Parque de los Novios",
+      "costo": "10.000 COP",
+      "horario": "Sábados 9:00 - 9:45",
+      "descripcion": "Sesiones de yoga en compañía de los padres para fortalecer el vínculo afectivo.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Ritmos y risas",
+      "categoria": "Arte y Manualidades",
+      "edad": "0-2",
+      "ubicacion": "Centro Cultural de Suba",
+      "costo": "12.000 COP",
+      "horario": "Miércoles 10:00",
+      "descripcion": "Taller musical interactivo con instrumentos suaves y canciones para bebés.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Cuentos y gateos",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "0-2",
+      "ubicacion": "Biblioteca Tunal",
+      "costo": "Gratis",
+      "horario": "Viernes 11:00",
+      "descripcion": "Sesiones de cuentos breves y exploración libre para los más pequeños.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Arte reciclado para niños",
+      "categoria": "Arte y Manualidades",
+      "edad": "5-9",
+      "ubicacion": "Casa de la Cultura Kennedy",
+      "costo": "18.000 COP",
+      "horario": "Sábados 14:00 - 16:00",
+      "descripcion": "Taller de manualidades con materiales reciclables para fomentar la creatividad.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Teatro infantil participativo",
+      "categoria": "Eventos",
+      "edad": "5-10",
+      "ubicacion": "Teatro Jorge Eliécer Gaitán",
+      "costo": "25.000 COP",
+      "horario": "Domingos 11:00",
+      "descripcion": "Obras teatrales donde los niños se convierten en parte del espectáculo.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Paseo por el Jardín Botánico",
+      "categoria": "Eventos",
+      "edad": "todas",
+      "ubicacion": "Jardín Botánico de Bogotá",
+      "costo": "Gratis",
+      "horario": "Sábados 9:00 - 11:00",
+      "descripcion": "Recorrido educativo por el jardín botánico para conocer las plantas nativas.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Pequeños escultores",
+      "categoria": "Arte y Manualidades",
+      "edad": "8-12",
+      "ubicacion": "Museo Botero",
+      "costo": "20.000 COP",
+      "horario": "Sábados 11:00 - 13:00",
+      "descripcion": "Crea esculturas con plastilina y materiales suaves inspiradas en el arte de Botero.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Aventura ecológica infantil",
+      "categoria": "Eventos",
+      "edad": "7-11",
+      "ubicacion": "Reserva La Conejera",
+      "costo": "15.000 COP",
+      "horario": "Domingos 8:00 - 10:00",
+      "descripcion": "Excursión educativa para aprender sobre fauna y flora local.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Tarde de robótica",
+      "categoria": "Eventos",
+      "edad": "10-14",
+      "ubicacion": "Centro Interactivo Maloka",
+      "costo": "40.000 COP",
+      "horario": "Sábados 15:00 - 17:00",
+      "descripcion": "Aprende a armar y programar robots sencillos con sensores y motores.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Fiesta de pintura con espuma",
+      "categoria": "Eventos",
+      "edad": "4-8",
+      "ubicacion": "Parque El Lago",
+      "costo": "20.000 COP",
+      "horario": "Domingos 11:00",
+      "descripcion": "Taller artístico donde los niños pintan y juegan con espuma de colores.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Exploradores del agua",
+      "categoria": "Eventos",
+      "edad": "6-10",
+      "ubicacion": "Acuario del Centro Interactivo",
+      "costo": "30.000 COP",
+      "horario": "Sábados 9:00 - 11:00",
+      "descripcion": "Actividad sobre los ecosistemas acuáticos y su cuidado.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Cuentos mágicos del bosque",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "4-7",
+      "ubicacion": "Biblioteca El Tintal",
+      "costo": "Gratis",
+      "horario": "Viernes 16:00",
+      "descripcion": "Lecturas dramatizadas y juegos de imaginación para los más pequeños.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Pintura bajo el sol",
+      "categoria": "Arte y Manualidades",
+      "edad": "6-12",
+      "ubicacion": "Parque de los Novios",
+      "costo": "10.000 COP",
+      "horario": "Domingos 10:00 - 12:00",
+      "descripcion": "Taller de pintura al aire libre con materiales ecológicos y naturales.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Taller de percusión africana",
+      "categoria": "Arte y Manualidades",
+      "edad": "10-15",
+      "ubicacion": "Centro Cultural La Candelaria",
+      "costo": "25.000 COP",
+      "horario": "Sábados 11:00 - 13:00",
+      "descripcion": "Aprende ritmos africanos con tambores y técnicas de percusión en grupo.",
+      "imagen": null,
+      "destacada": true
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Jornada de arte callejero",
+      "categoria": "Eventos",
+      "edad": "12-17",
+      "ubicacion": "Calle 26 con 13",
+      "costo": "Gratis",
+      "horario": "Sábados 15:00 - 18:00",
+      "descripcion": "Explora el graffiti y las intervenciones urbanas de manera artística y responsable.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Caminata arqueológica",
+      "categoria": "Museos y Bibliotecas",
+      "edad": "9-14",
+      "ubicacion": "Museo del Oro",
+      "costo": "18.000 COP",
+      "horario": "Domingos 9:00 - 11:00",
+      "descripcion": "Recorrido guiado para descubrir los tesoros precolombinos y su historia.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Actividad Extra 77",
+      "categoria": "Eventos",
+      "edad": "6-10",
+      "ubicacion": "Lugar Extra 77",
+      "costo": "Gratis",
+      "horario": "Sábado 10:00",
+      "descripcion": "Actividad adicional número 77 generada automáticamente.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Actividad Extra 78",
+      "categoria": "Eventos",
+      "edad": "6-10",
+      "ubicacion": "Lugar Extra 78",
+      "costo": "Gratis",
+      "horario": "Sábado 10:00",
+      "descripcion": "Actividad adicional número 78 generada automáticamente.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Actividad Extra 79",
+      "categoria": "Eventos",
+      "edad": "6-10",
+      "ubicacion": "Lugar Extra 79",
+      "costo": "Gratis",
+      "horario": "Sábado 10:00",
+      "descripcion": "Actividad adicional número 79 generada automáticamente.",
+      "imagen": null,
+      "destacada": false
+    }
+  },
+  {
+    "model": "actividades.actividad",
+    "fields": {
+      "nombre": "Actividad Extra 80",
+      "categoria": "Eventos",
+      "edad": "6-10",
+      "ubicacion": "Lugar Extra 80",
+      "costo": "Gratis",
+      "horario": "Sábado 10:00",
+      "descripcion": "Actividad adicional número 80 generada automáticamente.",
+      "imagen": null,
+      "destacada": false
+    }
+  }
+]

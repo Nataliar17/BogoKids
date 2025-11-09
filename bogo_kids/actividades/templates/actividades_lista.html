@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  {% load static %}
+  <link rel="icon" href="{% static 'img/favicon.png' %}" type="image/png">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <title>BogoKids</title>
+
+  <!-- Tipografía -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Iconos -->
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <img src="{% static 'img/bk_sinfondo.png' %}" alt="Logo BogoKids">
+    <h1>BogoKids</h1>
+  </nav>
+
+  <!-- CARRUSEL DESTACADO -->
+  <section class="carousel-section">
+    <h2 class="carousel-title">Actividades Destacadas</h2>
+
+    <div class="carousel-container">
+      <button class="carousel-btn prev" aria-label="Anterior">&#10094;</button>
+
+      <div class="carousel-track">
+        {% if actividades_destacadas %}
+          {% for actividad in actividades_destacadas %}
+          <div class="carousel-card">
+            {% if actividad.imagen %}
+            <img src="{{ actividad.imagen.url }}" alt="{{ actividad.nombre }}">
+            {% else %}
+            <img src="{% static 'img/default.jpg' %}" alt="Imagen no disponible">
+            {% endif %}
+            <h3>{{ actividad.nombre }}</h3>
+            <p>{{ actividad.descripcion|truncatewords:15 }}</p>
+          </div>
+          {% endfor %}
+        {% else %}
+          <p class="no-featured">No hay actividades destacadas por el momento.</p>
+        {% endif %}
+      </div>
+
+      <button class="carousel-btn next" aria-label="Siguiente">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE BÚSQUEDA -->
+  <section class="search-section">
+    <!-- FRANJA AZUL -->
+    <div class="search-bg">
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Buscar actividades...">
+        <select id="filterCategory">
+          <option value="">Filtra por categoría</option>
+          <option value="arte">Arte y Manualidades</option>
+          <option value="deporte">Deporte</option>
+          <option value="restaurantes">Restaurantes y cocina</option>
+          <option value="museos">Museos y bibliotecas</option>
+          <option value="eventos">Eventos</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- LISTADO DE ACTIVIDADES -->
+  <section class="activities-container">
+    {% for actividad in actividades %}
+    <div class="activity-card">
+      {% if actividad.imagen %}
+      <img src="{{ actividad.imagen.url }}" alt="{{ actividad.nombre }}">
+      {% endif %}
+      <div class="card-content">
+        <h2>{{ actividad.nombre }}</h2>
+        <p class="categoria">Categoría: {{ actividad.categoria }}</p>
+        <p class="edad">Edad: {{ actividad.edad }}</p>
+        <p class="ubicacion">Ubicación: {{ actividad.ubicacion }}</p>
+        <p class="costo">Costo: {{ actividad.costo }}</p>
+        <p class="horario">Horario: {{ actividad.horario }}</p>
+        <p class="descripcion">Descripción: {{ actividad.descripcion }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <!-- MENSAJE SIN RESULTADOS -->
+  <p id="noResults" style="display: none; text-align: center; margin-top: 20px; color: #004080;">
+    No se encontraron actividades que coincidan con tu búsqueda.
+  </p>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-section">
+        <h3>Sobre BogoKids</h3>
+        <p>
+          BogoKids conecta a las familias con actividades recreativas, educativas y culturales para niños en Bogotá.
+        </p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Enlaces útiles</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Actividades</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contáctanos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contáctanos</h3>
+        <p><i class="fa-solid fa-envelope"></i> contacto@bogokids.com</p>
+        <p><i class="fa-solid fa-phone"></i> +57 000 123 4567</p>
+        <p><i class="fa-solid fa-location-dot"></i> Bogotá, Colombia</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Síguenos</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 BogoKids. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
